@@ -83,20 +83,25 @@ Los scripts se ejecutan desde la raíz del repo y siguen la estructura antes men
 ## Cómo ejecutar el pipeline con uv
 
 ### Preprocesamiento y features
-```bash
+```text
 uv run python -m src.prep
-
+```
 ### Entrenamiento
+```text
 uv run python -m src.train
+```
 ### Inference batch
+```text
 uv run python -m src.inference
+```
 ### Outputs esperados
+```text
 -data/prep/train.parquet, data/prep/valid.parquet, data/prep/test_features.parquet, data/prep/test_pairs.parquet, data/prep/meta.json
 
 -artifacts/model.joblib
 
 -data/predictions/submission.csv
-
+```
 Referencias
 
 Manokhin, V. (n.d.). Mastering modern time series forecasting: A comprehensive guide to statistical, machine learning, and deep learning models in Python (Early Access). Leanpub.
