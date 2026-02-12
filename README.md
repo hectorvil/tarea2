@@ -95,13 +95,13 @@ uv run python -m src.train
 uv run python -m src.inference
 ```
 ### Outputs esperados
-```text
--data/prep/train.parquet, data/prep/valid.parquet, data/prep/test_features.parquet, data/prep/test_pairs.parquet, data/prep/meta.json
 
--artifacts/model.joblib
+- data/prep/train.parquet, data/prep/valid.parquet, data/prep/test_features.parquet, data/prep/test_pairs.parquet, data/prep/meta.json
 
--data/predictions/submission.csv
-```
+- artifacts/model.joblib
+
+- data/predictions/submission.csv
+
 Referencias
 
 Manokhin, V. (n.d.). Mastering modern time series forecasting: A comprehensive guide to statistical, machine learning, and deep learning models in Python (Early Access). Leanpub.
