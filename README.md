@@ -42,6 +42,7 @@ El modelo principal es un enfoque en **dos etapas**: primero estima si habrá ve
 │   ├── prep.py
 │   └── train.py
 └── tree.txt
+```
 ---
 ## Detalle
 
